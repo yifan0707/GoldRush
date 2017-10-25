@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour {
 			this.guardianWinText.text="";
 			kills = 0;
 			setTimeText();
-		} else if (this.name == "thief") {
+		} else if (this.name == "thief1") {
 			changeBodyColour (Color.black);
 		} else {
 			changeBodyColour (Color.grey);

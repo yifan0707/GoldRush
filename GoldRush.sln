@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldRush.Plugins", "GoldRush.Plugins.csproj", "{1CEF08B7-6073-6402-C56D-06DDD119ABCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldRush", "GoldRush.csproj", "{00DF2E07-DD1C-8574-7E91-2615AAE49E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldRush.Editor.Plugins", "GoldRush.Editor.Plugins.csproj", "{E0EC195D-38C0-CE84-0E81-9DBEE5E70D44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CEF08B7-6073-6402-C56D-06DDD119ABCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CEF08B7-6073-6402-C56D-06DDD119ABCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CEF08B7-6073-6402-C56D-06DDD119ABCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CEF08B7-6073-6402-C56D-06DDD119ABCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DF2E07-DD1C-8574-7E91-2615AAE49E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DF2E07-DD1C-8574-7E91-2615AAE49E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DF2E07-DD1C-8574-7E91-2615AAE49E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DF2E07-DD1C-8574-7E91-2615AAE49E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0EC195D-38C0-CE84-0E81-9DBEE5E70D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0EC195D-38C0-CE84-0E81-9DBEE5E70D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0EC195D-38C0-CE84-0E81-9DBEE5E70D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0EC195D-38C0-CE84-0E81-9DBEE5E70D44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

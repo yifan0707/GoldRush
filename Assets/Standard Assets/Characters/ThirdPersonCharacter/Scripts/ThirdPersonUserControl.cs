@@ -57,7 +57,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			if (this.name == "Guardian") {
 				h = CrossPlatformInputManager.GetAxis ("Horizontal1");
 				v = CrossPlatformInputManager.GetAxis ("Vertical1");
-			} else if (this.name == "thief") {
+			} else if (this.name == "thief1") {
 				h = CrossPlatformInputManager.GetAxis ("Horizontal2");
 				v = CrossPlatformInputManager.GetAxis ("Vertical2");
 			} else {

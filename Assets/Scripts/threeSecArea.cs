@@ -5,19 +5,19 @@ using UnityEngine.UI;
 
 public class threeSecArea : MonoBehaviour {
 	public int coinRemain;
-	public Thieves thief;
 	public Thieves thief1;
+	public Thieves thief2;
 	public Text thievesWinText;
 	// Use this for initialization
 	void Start () {
-		thief = GameObject.Find ("thief").GetComponent<Thieves> ();
 		thief1 = GameObject.Find ("thief1").GetComponent<Thieves> ();
+		thief2 = GameObject.Find ("thief2").GetComponent<Thieves> ();
 		thievesWinText.text = "";
 	}
 
 	// Update is called once per frame
 	void Update () {
-		if (this.coinRemain==0&&thief.getHasCoin () == false && thief1.getHasCoin () == false) {
+		if (this.coinRemain==0&&thief1.getHasCoin () == false && thief2.getHasCoin () == false) {
 			setThievesWinText ();
 		}
 	}

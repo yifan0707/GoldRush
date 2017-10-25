@@ -15,8 +15,9 @@ public class Cast : MonoBehaviour {
     public float cooldown2;
     private float currentCooldown;
     private float currentCooldown2;
-    public Text cooldownText;
-    public Text cooldownText2;
+
+    public Image shockwave1;
+    public Image shockwave2;
    
 	// Use this for initialization
 	void Start () {
@@ -38,12 +39,10 @@ public class Cast : MonoBehaviour {
             currentCooldown2 = cooldown2;
         }
 
-        setcooldownText();
-
-
         if (currentCooldown > 0f)
         {
             currentCooldown -= Time.deltaTime;
+            shockwave1.fillAmount = 1 - (currentCooldown / cooldown);
         }
         else {
             currentCooldown = 0;
@@ -53,16 +52,11 @@ public class Cast : MonoBehaviour {
         if (currentCooldown2 > 0f)
         {
             currentCooldown2 -= Time.deltaTime;
+            shockwave2.fillAmount = 1 - (currentCooldown2 / cooldown2);
         }
         else
         {
             currentCooldown2 = 0;
         }
-    }
-
-    public void setcooldownText()
-    {
-        this.cooldownText.text = "Ability one Cooldown: "+Mathf.Round(currentCooldown).ToString();
-        this.cooldownText2.text = "Ability two Cooldown: " + Mathf.Round(currentCooldown2).ToString();
     }
 }
